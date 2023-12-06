@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<hmtl lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Basic landing page for a construction company. Design by Matthew Hogeboom. Design found here -> www.behance.net/gallery/101561589/FT-Construction-Landing-Page/moodboard" />
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+        <title>FT Construction</title>
+    </head>
+    <body>
+        <header>
+            <div id="company-header">
+                <div class="logo">
+                    <h2>FT</h2>
+                </div>
+                <div class="company-motto">
+                    <h3>Construction</h3>
+                    <h4>Design Develop Create</h4>
+                </div>
+            </div>
+            <button id="hambrgr-btn" onclick="toggleNav()">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-align-justified" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z"/>
+                    <line x1="4" y1="6" x2="20" y2="6" />
+                    <line x1="4" y1="12" x2="20" y2="12" />
+                    <line x1="4" y1="18" x2="20" y2="18" />
+                  </svg>
+            </button>
+            <nav id="mobile-nav">
+                <div id="close-div" onclick="closeNav()">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-square-x" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z"/>
+                        <rect x="4" y="4" width="16" height="16" rx="2" />
+                        <path d="M10 10l4 4m0 -4l-4 4" />
+                    </svg>
+                </div>
+                <ul>
+                    <li>
+                        <a href="#" onclick="closeNav()">Home</a>
+                    </li>
+                    <li>
+                        <a href="#" onclick="closeNav()">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#" onclick="closeNav()">Services</a>
+                    </li>
+                    <li>
+                        <a href="#" onclick="closeNav()">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#" onclick="closeNav()">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+            <nav id="large-nav">
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact Us</a>
+                    </li>
+                </ul> 
+            </nav>
+                </a>
+            </div>
+        </header>
+        <section id="hero-section">
+            <h1>Custom Builders</h1>
+            <h3>Windows, Roofing, Siding, Bathrooms, Kitchens</h3>
+            <button id="find-out-lrg-btn">Find Out More</button>
+        </section>
+        <section id="small-about-section">
+            <div class="small-header">
+                <h1 class="section-title non-left-text">Whatever your project, we can handle it</h1>
+                <h4 class="tagline-h4">Windows, Roofing, Siding, Bathrooms, Kitchens...</h4>
+                <hr class="small-blue">
+            </div>
+            <div id="work-tiles-div">
+                <div class="work-tile">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brush" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z"/>
+                        <path d="M3 21v-4a4 4 0 1 1 4 4h-4" />
+                        <path d="M21 3a16 16 0 0 0 -12.8 10.2" />
+                        <path d="M21 3a16 16 0 0 1 -10.2 12.8" />
+                        <path d="M10.6 9a9 9 0 0 1 4.4 4.4" />
+                    </svg>
+                    <h2>Design</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit nisi omnis neque maxime autem
+                    </p>
+                    <button class="find-out-btn">Find Out More</button>
+                </div>
+                <div class="work-tile">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-tool" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z"/>
+                        <path d="M7 10h3v-3l-3.5 -3.5a6 6 0 0 1 8 8l6 6a2 2 0 0 1 -3 3l-6-6a6 6 0 0 1 -8 -8l3.5 3.5" />
+                    </svg>
+                    <h2>Construction</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit nisi omnis neque maxime autem
+                    </p>
+                    <button class="find-out-btn">Find Out More</button>
+                </div>
+                <div class="work-tile">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-paint" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z"/>
+                        <rect x="5" y="3" width="14" height="6" rx="2" />
+                        <path d="M19 6h1a2 2 0 0 1 2 2a5 5 0 0 1 -5 5l-5 0v2" />
+                        <rect x="10" y="15" width="4" height="6" rx="1" />
+                    </svg>
+                    <h2>Renovate</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit nisi omnis neque maxime autem
+                    </p>
+                    <button class="find-out-btn">Find Out More</button>
+                </div>
+            </div>
+        </section>
+        <section class="blue-bkg" id="experience-section">
+            <div id="exp-img-div">
+                <img id="construction-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYPftReC3gWLD344Idi8FiI7JHua_XEUKjiwpSwZc_ag&s" alt="Construction workers wokring"/>
+                <img id="built-house-img" class="hidden-img-mobile" src="https://www.phaidon.com/resource/023-cnt1-05b.jpg" alt="Half built house"/>
+                <img id="blueprints-img" class="hidden-img-mobile" src="https://i.pinimg.com/736x/33/68/30/33683034e6efa9b749b757d24e7765e5.jpg" alt="blueprints and pencil"/>
+            </div>
+            <div class="section-content">
+                <h2 class="section-title">We have over 40 years of experience</h2>
+                <p>
+                    Ea nisi nostrud labore laboris occaecat cillum aute labore culpa. Nisi qui ad consequat exercitation in id cillum. Proident anim incididunt eu esse laborum cillum officia excepteur eiusmod commodo excepteur magna. Officia officia est labore labore eu.
+                    <br><br>
+                    Ullamco non nisi consequat est qui non ad. Irure voluptate nisi exercitation ad anim elit aliqua laboris excepteur eu voluptate officia commodo. Officia et cillum quis duis magna minim culpa ex cupidatat. Incididunt culpa sunt aliqua et excepteur qui. Ad sit pariatur duis enim. Qui id aliquip aute non qui anim. Pariatur pariatur eiusmod laborum proident pariatur consequat nulla irure veniam laborum.
+                </p>
+                <button class="find-out-btn">Find Out More</button>
+            </div>
+        </section>
+        <section class="whitebkg-section" id="dreams-section">
+            <div class="section-content">
+                <h2 class="section-title right-justify">Bringing your projects and dreams to life</h2>
+                <p class="right-justify">
+                    Ea nisi nostrud labore laboris occaecat cillum aute labore culpa. Nisi qui ad consequat exercitation in id cillum. Proident anim incididunt eu esse laborum cillum officia excepteur eiusmod commodo excepteur magna. Officia officia est labore labore eu.
+                    <br><br>
+                    Ullamco non nisi consequat est qui non ad. Irure voluptate nisi exercitation ad anim elit aliqua laboris excepteur eu voluptate officia commodo. Officia et cillum quis duis magna minim culpa ex cupidatat. Incididunt culpa sunt aliqua et excepteur qui. Ad sit pariatur duis enim. Qui id aliquip aute non qui anim. Pariatur pariatur eiusmod laborum proident pariatur consequat nulla irure veniam laborum.
+                </p>
+                <button class="find-out-btn  right-btn">Find Out More</button>
+            </div>
+            <img src="https://acropolis-wp-content-uploads.s3.us-west-1.amazonaws.com/construction-workers-pouring-cement-on-roof.webp" alt="Construction worker working" />
+        </section>
+        <section class="whitebkg-section" id="handle-section">
+            <img src="https://media.istockphoto.com/id/923444844/photo/two-heavy-wheeled-tractor-one-excavator-and-other-construction-machinery-in-the-morning-sun.jpg?s=612x612&w=0&k=20&c=VgE7wpNmp7D3OnXb7uTmH6k4SuLbj3eBibSK5ab6Vw4=" alt="Construction vehicles" />
+            <div class="section-content">
+                <h2 class="section-title">Whatever your project, we can handle it</h2>
+                <p class="left-justify">
+                    Ea nisi nostrud labore laboris occaecat cillum aute labore culpa. Nisi qui ad consequat exercitation in id cillum. Proident anim incididunt eu esse laborum cillum officia excepteur eiusmod commodo excepteur magna. Officia officia est labore labore eu.
+                    <br><br>
+                    Ullamco non nisi consequat est qui non ad. Irure voluptate nisi exercitation ad anim elit aliqua laboris excepteur eu voluptate officia commodo. Officia et cillum quis duis magna minim culpa ex cupidatat. Incididunt culpa sunt aliqua et excepteur qui. Ad sit pariatur duis enim. Qui id aliquip aute non qui anim. Pariatur pariatur eiusmod laborum proident pariatur consequat nulla irure veniam laborum.
+                </p>
+                <button class="find-out-btn">Find Out More</button>
+            </div>
+        </section>
+        <section class="blue-bkg" id="past-project-section">
+            <div class="blue-bkg centered-div">
+                <h1 class="section-title non-left-text">View some of our past projects</h1>
+                <h4 class="tagline-h4">Windows, Roofing, Siding, Bathrooms, Kitchens...</h4>
+                <hr class="small-blue">
+            </div>
+            <div id="project-div">
+                <a id="yellow-house" href="#">
+                    <img src="https://ssl.cdn-redfin.com/photo/84/bigphoto/218/23537218_0.jpg" alt="A yellow house" />
+                </a>
+                <a id="white-house" href="#">
+                    <img src="https://media.architecturaldigest.com/photos/6049345ec780349185c63395/4:3/w_2668,h_2001,c_limit/GettyImages-1223379545.jpg" alt="A white house" />
+                </a>
+                <a id="long-house" href="#">
+                    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBQUFBcUFRUXGBcaGiAeGxobGhocIhseGxcbGxseGh4dICwkGx0pJBobJTYlKS4wMzMzGyI5PjkxPS4yMzABCwsLEA4QHhISHjspJCk0MjIyNDQ0MjIyMjI0MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMv/AABEIAK8BIAMBIgACEQEDEQH
+                    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" alt="A larger white house" />
+                </a>
+                <a id="tan-house" href="#">
+                    <imtanHouse.jpg" alt="A tan house" />
+                </a>
+            </div>
+        </section>
+        <section id="partner-section">
+            <div class="centered-div">
+                <h1 class="section-title non-left-text">Some of our partners</h1>
+                <h4 class="tagline-h4">FT Construction has a solid relationship with our partners</h4>
+                <hr class="small-blue">
+            </div>
+        </section>
+        <footer>
+            </div>
+            <div id="footer-content">
+                <div id="footer-company-div">
+                    <div id="bottom-logo-div">
+                        <div>
+                            <h2>FT</h2>
+                        </div>
+                        <div class="company-motto">
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-links-div">
+                    <h4 class="footer-titles">Quick Links</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Services</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links-div">
+                    <h4 class="footer-titles">Services</h4>
+                    <ul>
+                        <li><a href="#">Home Construction</a></li>
+                        <li><a href="#">Commercial</a></li>
+                        <li><a href="#">Roofing</a></li>
+                        <li><a href="#">Kitchen / Bathrooms</a></li>
+                        <li><a href="#">Repair / Maintenance</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <script src="toggleNav.js"></script>
+        <script src="closeNav.js"></script>
+    </body>
+</hmtl>
